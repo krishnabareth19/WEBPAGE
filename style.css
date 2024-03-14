@@ -1,0 +1,112 @@
+a{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+header
+{
+    font-size: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    color: white;
+    text-align: center; 
+    padding-top: 15px;
+    background-color: #766767; 
+    height: 80px; width: 100%
+
+}
+
+.logo
+{ 
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-right: 40px;
+}
+
+.nav-bar ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar ul li a
+{
+    display: block;
+    padding: 2px 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 4 8opx;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.nav-bar ul li:hover a
+{
+    background-color: whitesmoke;
+    color: #213032;
+    cursor: pointer;
+}
+
+a,button
+{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+button
+{
+    display: block;
+    background-color: rgba(58, 52, 147, 0.612);
+    padding: 9px 25px;
+    border: none;
+    border-radius: 2px;
+}
+.section
+{
+    background-color:#a8759a; 
+    width: 100%; 
+    border: 1px solid black;
+}
+
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.article
+{
+    background-color: #b0517d; 
+    width: 100%; 
+    border:1px solid black;
+}
+
+.aside
+{
+    background-color:#705a85db;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.details
+{
+    background-color: #b19da7bf;
+}
+
+.footer
+{
+background-color: rgba(128, 121, 126, 0.859); 
+width: 100%; 
+text-align: center;
+}
